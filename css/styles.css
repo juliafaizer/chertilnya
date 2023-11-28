@@ -1,11 +1,11 @@
 @font-face {
   font-family: "NokiaKokia";
-  src: url("/fonts/NokiaKokia.ttf");
+  src: url("/fonts/NokiaKokia.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Wremena";
-  src: url("/fonts/Wremena.otf");
+  src: url("/fonts/Wremena.otf") format("opentype");
 }
 
 body {
@@ -275,8 +275,8 @@ ul {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-position: relative;
-bottom: 150px;
+  position: relative;
+  bottom: 150px;
 
 }
 
@@ -291,10 +291,12 @@ bottom: 150px;
   position: relative;
 
 }
+
 .mr2 {
   width: 800px;
   margin: 0 60px 90px auto;
 }
+
 .microfont {
   text-align: center;
 }
