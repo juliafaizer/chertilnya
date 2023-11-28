@@ -1,15 +1,15 @@
 @font-face {
   font-family: "NokiaKokia";
-  src: url("/fonts/NokiaKokia.ttf") format("truetype");
+  src: url("../fonts/NokiaKokia.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Wremena";
-  src: url("/fonts/Wremena.otf") format("opentype");
+  src: url("../fonts/Wremena.otf") format("opentype");
 }
 
 body {
-  margin: 0;
+  margin: auto;
   width: 1440px;
   background-color: black;
 }
@@ -56,6 +56,7 @@ body {
   font-size: 26px;
   font-family: Wremena;
   line-height: 1.2;
+  margin: 0;
 }
 
 .navigationright {
@@ -142,7 +143,7 @@ body {
 }
 
 .orderbuttom:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .bordergroup {
@@ -166,7 +167,7 @@ body {
   height: 235px;
   width: 310px;
   background-color: black;
-  background-image: url("/img/bababa.svg");
+  background-image: url("../img/bababa.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,7 +178,7 @@ body {
   height: 235px;
   width: 310px;
   background-color: black;
-  background-image: url("/img/bebebe.svg");
+  background-image: url("../img/bebebe.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -188,7 +189,7 @@ body {
   height: 235px;
   width: 310px;
   background-color: black;
-  background-image: url("/img/bybyby.svg");
+  background-image: url("../img/bybyby.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -215,7 +216,7 @@ body {
 }
 
 ul {
-  list-style: url("/img/Ellipse8.svg") square;
+  list-style: url("../img/Ellipse8.svg") square;
   margin: 0;
 }
 
@@ -234,12 +235,12 @@ ul {
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  transition: 0.5s;
+  transition: 0.7s;
   margin: auto auto 30px auto;
 }
 
-.orderbuttom:hover {
-  transform: scale(0.5s);
+.orderbuttom2:hover {
+  transform: scale(1.2);
 }
 
 .mr1 {
@@ -252,18 +253,22 @@ ul {
   font-size: 98pt;
   text-align: center;
   margin: 0px 0px 0px 0px;
+  animation:7s linear infinite  rotate;
 }
-
+@keyframes rotate {
+  from {transform: rotateY(0deg);}
+  to{ transform: rotateY(720deg);}
+}
 .nm1 {
   width: 200px;
   height: 184px;
-  margin: 0px 0px 0px 60px;
+  margin: 200px 0px 0px 60px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 227px;
+  top: px;
 
 }
 
@@ -275,26 +280,28 @@ ul {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  bottom: 150px;
+ 
 
 }
 
 .nm3 {
   width: 230px;
   height: 180px;
-  margin: auto auto auto auto;
+  margin: 0px 60px 0px 0px;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
   position: relative;
+  bottom: 112px ;
 
 }
 
+
+
 .mr2 {
   width: 800px;
-  margin: 0 60px 90px auto;
+  margin: 100px 60px 60px auto;
 }
 
 .microfont {
