@@ -1,0 +1,363 @@
+@font-face {
+  font-family: "NokiaKokia";
+  src: url("/fonts/NokiaKokia.ttf");
+}
+
+@font-face {
+  font-family: "Wremena";
+  src: url("/fonts/Wremena.otf");
+}
+
+body {
+  margin: 0;
+  width: 1440px;
+  background-color: black;
+}
+
+.menu {
+  background-color: black;
+  height: 110px;
+}
+
+.horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.menu_container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.logodiv {
+  height: 70px;
+  width: 325px;
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+  margin-right: auto;
+}
+
+.logo {
+  object-fit: contain;
+}
+
+.font1 {
+  margin: auto 0 auto auto;
+}
+.font_basewhite {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  font-family: Wremena;
+  line-height: 1.2;
+}
+
+.navigationright {
+  position: relative;
+  height: 70px;
+  width: 700px;
+  display: flex;
+  justify-content: right;
+  margin-right: 60px;
+}
+
+.menu_line_block {
+  width: 1440px;
+  height: 3px;
+  margin: 0;
+  background-color: black;
+}
+
+.menu_line {
+  width: 1350px;
+  height: 3px;
+  background-color: #FF64A5;
+  margin: auto 50px auto 50px;
+}
+
+.chapter {
+  height: 670px;
+  margin: 0;
+}
+
+
+.font2 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 56px;
+  line-height: 99px;
+  margin: 0px 0px 0px 60px;
+  position: relative;
+  top: -610px;
+}
+
+.fonth1 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 32px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 0px;
+
+}
+
+.fonth2 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 32px;
+  line-height: 35px;
+  display: flex;
+  justify-content: left;
+  margin: 55px 0px 0px 250px;
+
+}
+
+.chert2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0px;
+  left: 915px;
+}
+
+.orderbuttom {
+  width: 330px;
+  height: 80px;
+  background-color: #FF64A5;
+  border-radius: 20px;
+  margin-left: 125px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 500px;
+  transition: 0.5s;
+}
+
+.orderbuttom:hover {
+  transform: scale(1.1);
+}
+
+.bordergroup {
+  margin: 50px 60px 0px 60px;
+}
+
+.border {
+  height: 600px;
+  width: 350px;
+  background-color: black;
+  border: solid;
+  border-color: #FF64A5;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yimg1 {
+  height: 235px;
+  width: 310px;
+  background-color: black;
+  background-image: url("/img/bababa.svg");
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 32px 0px 48px 0px;
+}
+
+.yimg2 {
+  height: 235px;
+  width: 310px;
+  background-color: black;
+  background-image: url("/img/bebebe.svg");
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 32px 0px 48px 0px;
+}
+
+.yimg3 {
+  height: 235px;
+  width: 310px;
+  background-color: black;
+  background-image: url("/img/bybyby.svg");
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 32px 0px 48px 0px;
+}
+
+.fonth3 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.font6 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Wremena;
+  margin: 0;
+  text-align: left;
+  line-height: 22pt;
+}
+ul {
+  list-style: url("/img/Ellipse8.svg") square;
+  margin: 0;
+}
+.fontorder {
+  text-decoration: none;
+  color: white;
+  font-size: 20pt;
+  font-family: Wremena;
+  margin: auto;
+}
+.orderbuttom2 {
+  width: 200px;
+  height: 45px;
+  background-color: #FF64A5;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  margin: auto auto 30px auto;
+}
+
+.orderbuttom:hover {
+  transform: scale(0.5s);
+}
+.mr1 {
+  margin: 60px 0px 0px 60px;
+}
+.numbers {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 98pt;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+.nm1 {
+  width: 280px;
+  height: 183px;
+  margin:0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.nm2 {
+  width: 280px;
+  height: 183px;
+  margin:0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.nm3 {
+  width: 280px;
+  height: 183px;
+  margin:0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.microfont {
+  text-align: center;
+}
+.font3 {
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  font-family: Wremena;
+  margin: auto;
+}
+.QA {
+  position: relative;
+  left: -230px;
+}
+
+footer {
+  background-color: #FF64A5;
+  height: 250px;
+  margin: 0;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 60px 0px 60px;
+  height: 190px;
+
+}
+
+.logodown {
+  height: 175px;
+  width: 238px;
+}
+
+.font4 {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: Wremena;
+  margin: 0;
+  text-align: left;
+  line-height: 25pt;
+}
+
+.font5 {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-family: Wremena;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+.fontpadding {
+  padding: 10px 0px 20px 0px;
+}
+
+.fal {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.socialnet {
+  height: ;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 0px 0px;
+}
+
+.inst {
+  padding: 10px 10px 10px 0px;
+}
+
+.wtsup {
+  padding: 10px 10px 10px 10px;
+}
+
+.fb {
+  padding: 10px 0px 10px 10px;
+}
+
+.background_class {
+  height: 800px;
+  background-color: black;
+}
