@@ -255,12 +255,19 @@ ul {
   font-size: 98pt;
   text-align: center;
   margin: 0px 0px 0px 0px;
-  animation:7s linear infinite  rotate;
+  animation: 7s linear infinite rotate;
 }
+
 @keyframes rotate {
-  from {transform: rotateY(0deg);}
-  to{ transform: rotateY(720deg);}
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(720deg);
+  }
 }
+
 .nm1 {
   width: 200px;
   height: 184px;
@@ -282,7 +289,7 @@ ul {
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
- 
+
 
 }
 
@@ -295,16 +302,18 @@ ul {
   flex-direction: column;
   align-items: center;
   position: relative;
-  bottom: 112px ;
+  bottom: 112px;
 
 }
+
 .merch {
   margin-top: 40px;
   margin-left: 60px;
   width: 510px;
 
-}  
-.merchblock{
+}
+
+.merchblock {
   margin-left: 60px;
   width: 510px;
   display: flex;
@@ -312,6 +321,7 @@ ul {
   flex-direction: column;
   align-content: center;
 }
+
 .orderbuttom3 {
   width: 330px;
   height: 80px;
