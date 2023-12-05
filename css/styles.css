@@ -23,6 +23,10 @@ body {
   display: flex;
   align-items: center;
 }
+.horizontal2 {
+  display: flex;
+  align-items: right;
+}
 
 .space-between {
   justify-content: space-between;
@@ -119,7 +123,7 @@ body {
   line-height: 35px;
   display: flex;
   justify-content: left;
-  margin: 55px 0px 0px 250px;
+  margin: 55px auto 0px auto;
 
 }
 
@@ -332,6 +336,9 @@ ul {
   transition: 0.7s;
   margin: 40px auto auto auto;
 }
+.orderbuttom3:hover {
+  transform: scale(1.2);
+}
 
 .mr2 {
   width: 800px;
@@ -349,7 +356,32 @@ ul {
   font-family: Wremena;
   margin: auto;
 }
-
+.img1 {
+  height: 313px;
+  width: 438px;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img2 {
+  height: 313px;
+  width: 235px;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.t-shirt {
+  background-image: url("../img/t-shirt.png");
+  position: relative;
+  margin: 0px 40px 20px auto;
+}
+.bag {
+  background-image: url("../img/bag1.png");
+  position: relative;
+  margin: 0px 60px 20px auto;
+}
 .QA {
   position: relative;
   left: -230px;
