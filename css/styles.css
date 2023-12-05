@@ -64,8 +64,10 @@ body {
   height: 70px;
   width: 700px;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   margin-right: 60px;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .menu_line_block {
@@ -296,8 +298,30 @@ ul {
   bottom: 112px ;
 
 }
+.merch {
+  margin-top: 40px;
+  margin-left: 60px;
+  width: 510px;
 
-
+}  
+.merchblock{
+  margin-left: 60px;
+  width: 510px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+}
+.orderbuttom3 {
+  width: 330px;
+  height: 80px;
+  background-color: #FF64A5;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  transition: 0.7s;
+  margin: 40px auto auto auto;
+}
 
 .mr2 {
   width: 800px;
