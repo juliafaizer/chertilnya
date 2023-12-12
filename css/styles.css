@@ -23,6 +23,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .horizontal2 {
   display: flex;
   align-items: right;
@@ -336,6 +337,7 @@ ul {
   transition: 0.7s;
   margin: 40px auto auto auto;
 }
+
 .orderbuttom3:hover {
   transform: scale(1.2);
 }
@@ -356,6 +358,7 @@ ul {
   font-family: Wremena;
   margin: auto;
 }
+
 .img1 {
   height: 313px;
   width: 438px;
@@ -364,6 +367,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .img2 {
   height: 313px;
   width: 235px;
@@ -372,21 +376,90 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .t-shirt {
   background-image: url("../img/t-shirt.png");
   position: relative;
-  margin: 0px 40px 20px auto;
+  margin: 0px 20px 20px auto;
 }
+
 .bag {
   background-image: url("../img/bag1.png");
   position: relative;
-  margin: 0px 60px 20px auto;
+  margin: 0px 60px 20px 20px;
 }
+
+.stickers {
+  background-image: url("../img/stickers.png");
+  position: relative;
+  margin: 20px 20px auto 200px;
+}
+
+.pins {
+  background-image: url("../img/pins.png");
+  position: relative;
+  margin: 20px 20px auto 20px;
+}
+
+.keychain {
+  background-image: url("../img/keychain.png");
+  position: relative;
+  margin: 20px 60px auto 20px;
+}
+
+.position-up {
+  position: relative;
+  top: -313px;
+}
+
 .QA {
   position: relative;
   left: -230px;
 }
 
+.slides {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  width: 980px;
+  height: 160px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+}
+
+.name {
+  background-color: #FF64A5;
+  border-radius: 20px;
+  width: 465px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.font_baseblack {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Wremena;
+  line-height: 1.2;
+  margin: auto auto auto 20px;
+}
+.arrowprew {
+  background-image: url("../img/Arrow\ 2.svg");
+  height: 60px;
+  width: 115px;
+}
+.arrowend {
+  background-image: url("../img/Arrow\ 1.svg");
+  height: 60px;
+  width: 115px;
+}
 footer {
   background-color: #FF64A5;
   height: 250px;
