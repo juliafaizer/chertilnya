@@ -24,6 +24,11 @@ body {
   align-items: center;
 }
 
+.horizontal1 {
+  display: flex;
+  align-items: right;
+}
+
 .horizontal2 {
   display: flex;
   align-items: right;
@@ -163,7 +168,8 @@ body {
   background-color: black;
   border: solid;
   border-color: #FF64A5;
-  border-radius: 20px;
+  border-radius: 20px; }
+  .border_group {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -413,33 +419,108 @@ ul {
 }
 
 .QA {
+  margin: 48px auto 0 139px;
+}
+.container2 {
+  width: fit-content;
+  height: fit-content;
+}
+.form {
+  width: 552px;
+  height: 372px;
+  margin: 0 138px 64px auto;
   position: relative;
-  left: -230px;
+  bottom: 190px;
+}
+.lilpinkfont {
+  color: #FF64A5;
+  font-size: 16px;
+  font-family: NokiaKokia;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 21px;
+}
+.container3 {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content:flex-start;
+  align-content: center;
+  margin: 17px auto 0 21px;
+}
+.whitec1 {
+  height: 37px ;
+  width: 218px;
+  align-items: center;
+}
+.whitec2 {
+  height: 37px ;
+  width: 335px;
+  align-items: center;
+}
+.whitec3 {
+  height: 132px ;
+  width: 376px;
+  align-items: flex-start;
+}
+.bottom{
+  background-color: #FF64A5;
+  border-radius: 20px;
+  height: 37px;
+  width: 218px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 38px auto auto 21px;
+  transition: 0.7s;
 }
 
-.slides {
+.bottom:hover {
+  transform: scale(1.1);
+}
+
+.chertila {
+  background-image: url("../img/chertila2\ 1.svg");
+  width: 184px;
+  height: 184px;
+  position: relative;
+  bottom: 160px;
+  left: 385px;
+}
+
+
+.feedback {
   background-color: white;
   border-radius: 20px;
   display: flex;
   justify-content: center;
-  width: 980px;
-  height: 160px;
-  margin-top: 20px;
+  width: 1163px;
+  height: 120px;
+  margin: 25px auto 0 auto;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
-
+  text-align: left;
 }
+
 
 .name {
   background-color: #FF64A5;
   border-radius: 20px;
-  width: 465px;
-  height: 45px;
+  width: 447px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin: 40px auto 0 auto;
 
+}
+.fontname {
+  color: white;
+  font-family: NokiaKokia;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .font_baseblack {
@@ -448,18 +529,14 @@ ul {
   font-size: 20px;
   font-family: Wremena;
   line-height: 1.2;
-  margin: auto auto auto 20px;
+  margin: auto auto auto 27px;
 }
-.arrowprew {
-  background-image: url("../img/Arrow\ 2.svg");
-  height: 60px;
-  width: 115px;
+.container1 {
+  height: 90px;
+  width: 520px;
+  margin: 68px auto 0 139px;
 }
-.arrowend {
-  background-image: url("../img/Arrow\ 1.svg");
-  height: 60px;
-  width: 115px;
-}
+
 footer {
   background-color: #FF64A5;
   height: 250px;
@@ -510,7 +587,7 @@ footer {
 }
 
 .socialnet {
-  height: ;
+  margin-bottom: 32px;
   display: flex;
   justify-content: space-between;
   padding: 10px 0px 0px 0px;
