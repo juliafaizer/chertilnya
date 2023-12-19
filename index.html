@@ -97,21 +97,24 @@
             </div>
         </div>
         <div class="background_class chapter">
-            <div class="merchblock">
-                <p class="fonth2">Мерч</p>
-                <diV class="merch">
-                    <p class="font_basewhite">Также у нас вы можете приобрести </br>чертовски хороший мерч!</p>
-                </diV>
-                <diV class="merch">
-                    <p class="font_basewhite">Все, что вашей душе угодно: брелки, </br> стикеры, пины и даже одежду!</p>
-                </diV>
-                <div class="orderbuttom3"><a class="font3" href="">Купить</a></div>
+            <div class="align1">
+                <div class="merchblock">
+                    <p class="fonth2">Мерч</p>
+                    <diV class="merch">
+                        <p class="font_basewhite">Также у нас вы можете приобрести </br>чертовски хороший мерч!</p>
+                    </diV>
+                    <diV class="merch">
+                        <p class="font_basewhite">Все, что вашей душе угодно: брелки, </br> стикеры, пины и даже одежду!
+                        </p>
+                    </diV>
+                    <div class="orderbuttom3"><a class="font3" href="">Купить</a></div>
+                </div>
+                <div class="horizontal1 space-between">
+                    <div class="img1 t-shirt"></div>
+                    <div class="img2 bag"></div>
+                </div>
             </div>
-            <div class="horizontal1 space-between position-up ">
-                <div class="img1 t-shirt"></div>
-                <div class="img2 bag"></div>
-            </div>
-            <div class="horizontal2 space-between position-up">
+            <div class="horizontal2 space-between">
                 <div class="img2 stickers"></div>
                 <div class="img1 pins"></div>
                 <div class="img1 keychain"></div>
@@ -137,13 +140,16 @@
                 <p class="font_basewhite">Напишите нам, и наш менеджер
                     свяжется с вами прямиком из Ада в ближайшее время.</p>
             </div>
-            <div class="form border">
-                <div class="whitec1 container3"><p class="lilpinkfont">ИМЯ</p></div>
-                <div class="whitec2 container3"><p class="lilpinkfont">НОМЕР ДЛЯ СВЯЗИ</p></div>
-                <div class="whitec3 container3"><p class="lilpinkfont">ВАШ ВОПРОС</p></div>
-                <div class="bottom microfont fontorder"><p class="">Отправить</p></div>
-               <div class="chertila"></div>
-            </div>
+            <form class="form border">
+                <input id="name" type="text" class="whitec1 container3" placeholder="ИМЯ"></input>
+                <input id="number" type="number" class="whitec2 container3" placeholder="НОМЕР ДЛЯ СВЯЗИ" minlength="11"
+                    maxlength="11"></input>
+                <input id="question" type="text" class="whitec3 container3" placeholder="ВАШ ВОПРОС"></input>
+                <button id="submit" type="submit" class="bottom microfont fontorder">
+                    <p class="">Отправить</p>
+                </button>
+                <div class="chertila"></div>
+            </form>
 
         </div>
     </main>

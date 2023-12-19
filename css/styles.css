@@ -27,6 +27,7 @@ body {
 .horizontal1 {
   display: flex;
   align-items: right;
+  width: fit-content;
 }
 
 .horizontal2 {
@@ -318,8 +319,7 @@ ul {
 }
 
 .merch {
-  margin-top: 40px;
-  margin-left: 60px;
+  margin-top: 30px;
   width: 510px;
 
 }
@@ -331,6 +331,15 @@ ul {
   justify-content: space-between;
   flex-direction: column;
   align-content: center;
+  text-align: left;
+}
+.align1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: flex-end;
 }
 
 .orderbuttom3 {
@@ -386,37 +395,33 @@ ul {
 .t-shirt {
   background-image: url("../img/t-shirt.png");
   position: relative;
-  margin: 0px 20px 20px auto;
+  margin: 0px 20px 0 auto;
 }
 
 .bag {
   background-image: url("../img/bag1.png");
   position: relative;
-  margin: 0px 60px 20px 20px;
+  margin: 0px 60px 0 20px;
 }
 
 .stickers {
   background-image: url("../img/stickers.png");
   position: relative;
-  margin: 20px 20px auto 200px;
+  margin: 40px 20px auto 200px;
 }
 
 .pins {
   background-image: url("../img/pins.png");
   position: relative;
-  margin: 20px 20px auto 20px;
+  margin: 40px 20px auto 20px;
 }
 
 .keychain {
   background-image: url("../img/keychain.png");
   position: relative;
-  margin: 20px 60px auto 20px;
+  margin: 40px 60px auto 20px;
 }
 
-.position-up {
-  position: relative;
-  top: -313px;
-}
 
 .QA {
   margin: 48px auto 0 139px;
@@ -432,13 +437,19 @@ ul {
   position: relative;
   bottom: 190px;
 }
-.lilpinkfont {
+::placeholder {
   color: #FF64A5;
   font-size: 16px;
   font-family: NokiaKokia;
   line-height: 20px;
   text-align: left;
   margin-left: 21px;
+}
+input{
+  border: none;
+}
+button{
+  border: none;
 }
 .container3 {
   background-color: white;
@@ -447,6 +458,7 @@ ul {
   justify-content:flex-start;
   align-content: center;
   margin: 17px auto 0 21px;
+  padding-left: 21px;
 }
 .whitec1 {
   height: 37px ;
@@ -455,12 +467,12 @@ ul {
 }
 .whitec2 {
   height: 37px ;
-  width: 335px;
+  width: 320px;
   align-items: center;
 }
 .whitec3 {
   height: 132px ;
-  width: 376px;
+  width: 360px;
   align-items: flex-start;
 }
 .bottom{
