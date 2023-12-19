@@ -7,7 +7,9 @@
   font-family: "Wremena";
   src: url("../fonts/Wremena.otf") format("opentype");
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: auto;
   width: 1440px;
@@ -219,6 +221,7 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
+
 .font6 {
   text-decoration: none;
   color: white;
@@ -365,7 +368,9 @@ ul {
 .microfont {
   text-align: center;
 }
-
+.marginzero {
+  margin: 0;
+}
 .font3 {
   text-decoration: none;
   color: white;
@@ -381,6 +386,10 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .img2 {
@@ -390,8 +399,39 @@ ul {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-
+.fonth4 {
+  color: #FF64A5;
+  font-family: NokiaKokia;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: auto;
+  opacity: 0%;
+}
+.img1:hover .fonth4{
+  opacity: 100%;
+  transition: 0.2s;
+  transform: scale(1.4);
+  
+}
+.img2:hover .fonth4{
+  opacity: 100%;
+  transition: 0.2s;
+  transform: scale(1.4);
+}
+.img1:hover {
+  opacity: 30%;
+  transition: 0.2s;
+}
+.img2:hover {
+  opacity: 30%;
+  transition: 0.2s;
+}
 .t-shirt {
   background-image: url("../img/t-shirt.png");
   position: relative;
