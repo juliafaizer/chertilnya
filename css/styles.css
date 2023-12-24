@@ -405,7 +405,7 @@ ul {
   cursor: pointer;
 }
 .fonth4 {
-  color: #FF64A5;
+  color: white;
   font-family: NokiaKokia;
   font-size: 18px;
   line-height: 22px;
@@ -413,6 +413,7 @@ ul {
   margin: auto;
   opacity: 0%;
 }
+
 .img1:hover .fonth4{
   opacity: 100%;
   transition: 0.2s;
@@ -425,11 +426,11 @@ ul {
   transform: scale(1.4);
 }
 .img1:hover {
-  opacity: 30%;
+  opacity: 80%;
   transition: 0.2s;
 }
 .img2:hover {
-  opacity: 30%;
+  opacity: 80%;
   transition: 0.2s;
 }
 .t-shirt {
